@@ -1,7 +1,7 @@
 function Footer() {
     return (
-      <footer className="bg-green-600 text-white p-4 text-center">
-        <p>&copy; 2025 Kenya Exports. All rights reserved.</p>
+      <footer className="bg-[#A83333] text-white p-4 text-center">
+        <p>&copy; All rights reserved-2025 Kenya Exports | Powered by Nexel</p>
       </footer>
     );
   }

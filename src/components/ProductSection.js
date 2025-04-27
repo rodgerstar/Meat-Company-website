@@ -24,7 +24,7 @@ function ProductsSection() {
         setCurrentIndex((prevIndex) =>
           prevIndex + 1 >= products.length ? 0 : prevIndex + 1
         );
-      }, 50000);
+      }, 20000);
       return () => clearInterval(interval);
     } else {
       setCurrentIndex(0); // Reset index if ≤4 products

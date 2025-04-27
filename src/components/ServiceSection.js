@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
-import meatBg from "../assets/meat.jpg";
-// import coffeeBg from "../assets/coffee-bg.jpg";
-// import pyrethrumBg from "../assets/pyrethrum-bg.jpg";
+import quality from "../assets/Quality.webp";
+import shipping from "../assets/shipping.webp";
+import packing from "../assets/packing.jpeg"
 
 function ServicesSection() {
   const cardsRef = useRef([]);
@@ -19,17 +19,17 @@ function ServicesSection() {
     {
       title: "Quality Assurance",
       description: "We ensure every cut meets the highest standards for freshness and safety.",
-      image: meatBg || "https://via.placeholder.com/600x400?text=Meat",
+      image: quality || "https://via.placeholder.com/600x400?text=Meat",
     },
     {
       title: "Expert Packaging",
       description: "Customized packaging solutions that preserve freshness from farm to destination.",
-      image: meatBg || "https://via.placeholder.com/600x400?text=Coffee",
+      image: packing || "https://via.placeholder.com/600x400?text=Coffee",
     },
     {
       title: "Global Shipping",
       description: "Trusted logistics network delivering premium Kenyan mutton worldwide.",
-      image: meatBg || "https://via.placeholder.com/600x400?text=Pyrethrum",
+      image: shipping || "https://via.placeholder.com/600x400?text=Pyrethrum",
     },
   ];
 
