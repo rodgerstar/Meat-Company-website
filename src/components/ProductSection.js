@@ -54,7 +54,7 @@ function ProductsSection() {
       id="products"
       className="min-h-screen bg-zinc-200 flex items-center snap-start"
     >
-      <div className="container mx-auto text-center px-4">
+      <div className="container mx-auto text-center px-2">
         <h2 className="text-4xl font-bold mb-12 text-gray-900 drop-shadow-lg">
           Our Products
         </h2>
@@ -83,15 +83,13 @@ function ProductsSection() {
                   <h3 className="text-xl font-semibold ml-2 text-gray-800 truncate">
                     {product.name}
                   </h3>
-                  <p className="text-xl font-bold  text-[#8B0000]">
-                    ${product.price.toFixed(2)}
-                  </p>
+                  <StarRating className='mr-2' rating={4.5} />
                 </div>
                 <p className="text-gray-600 ml-2 text-left mb-1 line-clamp-2">
                   {product.description}
                 </p>
                 
-                <StarRating  rating={4.5} />
+                
               </div>
               <div className="absolute inset-0 border-2 border-transparent hover:border-[#8B0000] transition-colors duration-300 rounded-xl" />
             </div>

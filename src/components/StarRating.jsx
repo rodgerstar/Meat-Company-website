@@ -5,7 +5,7 @@ function StarRating({ rating }) {
   const hasHalfStar = rating % 1 >= 0.5; // Half star if ≥0.5 (true for 4.5)
 
   return (
-    <div className=" ml-2 flex items-center space-x-1 mb-2">
+    <div className=" ml-2 flex items-center space-x-1 mb-2 mr-3">
       {[...Array(5)].map((_, index) => {
         if (index < fullStars) {
           // Full star
